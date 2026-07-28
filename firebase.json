@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "snapkart-app-39508",
+          "appId": "1:106915894267:android:f8aa3debd2acf63cd7315e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "snapkart-app-39508",
+          "configurations": {
+            "android": "1:106915894267:android:f8aa3debd2acf63cd7315e",
+            "ios": "1:106915894267:ios:8d25cc83d6563799d7315e",
+            "macos": "1:106915894267:ios:8d25cc83d6563799d7315e",
+            "web": "1:106915894267:web:1e4e1331bd7af2bad7315e",
+            "windows": "1:106915894267:web:8c6785b85be09c33d7315e"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
