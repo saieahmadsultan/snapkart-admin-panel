@@ -1,5 +1,32 @@
+// import 'package:firebase_core/firebase_core.dart';
+// import 'package:flutter/material.dart';
+//
+// import 'firebase_options.dart';
+// import 'screens/login_screen.dart';
+//
+// void main() async {
+//   WidgetsFlutterBinding.ensureInitialized();
+//   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+//   runApp(const AdminApp());
+// }
+//
+// class AdminApp extends StatelessWidget {
+//   const AdminApp({super.key});
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: 'SnapKart Admin',
+//       debugShowCheckedModeBanner: false,
+//       theme: ThemeData(primarySwatch: Colors.deepOrange, useMaterial3: true),
+//       home: const LoginScreen(),
+//     );
+//   }
+// }
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:snapkart_admin/service/Currency_Service.dart';
 
 import 'firebase_options.dart';
 import 'screens/login_screen.dart';
@@ -7,6 +34,7 @@ import 'screens/login_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  CurrencyService.instance.init();
   runApp(const AdminApp());
 }
 

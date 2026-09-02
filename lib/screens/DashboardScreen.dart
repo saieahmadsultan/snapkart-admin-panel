@@ -784,6 +784,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   final List<String> _menuTitles = [
     'Dashboard',
     'Products',
+    //'Bundle Offers',
     'Orders',
     'Customers',
     'Categories',
@@ -792,6 +793,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   final List<IconData> _menuIcons = [
     Icons.dashboard_outlined,
     Icons.inventory_2_outlined,
+    Icons.local_offer_outlined,
     Icons.shopping_bag_outlined,
     Icons.people_outline,
     Icons.category_outlined,
@@ -817,6 +819,28 @@ class _DashboardScreenState extends State<DashboardScreen> {
   }
 
   Widget get _currentScreen {
+    // switch (_selectedIndex) {
+    //   case 0:
+    //     return _buildDashboardContent();
+    //   case 1:
+    //     return const ProductsScreen();
+    //   case 2:
+    //     return const BundleScreen();
+    //   case 3:
+    //     return const OrdersScreen();
+    //   case 4:
+    //     return const CustomersScreen();
+    //   case 5:
+    //     return const CategoriesScreen();
+    //   default:
+    //     return Center(
+    //       child: Text(
+    //         '${_menuTitles[_selectedIndex]} — coming soon',
+    //         style: const TextStyle(fontSize: 18, color: Colors.grey),
+    //       ),
+    //     );
+    // }
+
     switch (_selectedIndex) {
       case 0:
         return _buildDashboardContent();
@@ -874,7 +898,6 @@ class _DashboardScreenState extends State<DashboardScreen> {
       },
     );
   }
-
 
   Widget _buildSidebarContent({required bool isDrawer}) {
     return Container(
@@ -1022,7 +1045,6 @@ class _DashboardScreenState extends State<DashboardScreen> {
       ),
     );
   }
-
 
   Widget _buildDashboardContent() {
     return LayoutBuilder(
@@ -1234,7 +1256,6 @@ class _DashboardScreenState extends State<DashboardScreen> {
       ),
     );
   }
-
 
   Widget _buildChartCard({
     required String title,
