@@ -72,4 +72,4 @@ flutter run -d chrome
 **Saie Ahmad**
 Flutter Mobile App Developer
 📧 ahmadsultaniswl@gmail.com
-🔗 [LinkedIn](https://www.linkedin.com/in/saieahmadsultan)
+🔗 [LinkedIn](https://www.linkedin.com/in/saie-ahmad-flutter)
