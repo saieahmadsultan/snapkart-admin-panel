@@ -1,6 +1,6 @@
 # SnapKart Admin Panel 🖥️ — Flutter Web Dashboard
 
-A companion web dashboard for the [SnapKart](https://github.com/ahmadsultaniswl-stack/snapkart) e-commerce app, built with Flutter Web and connected to the same Firebase backend as the mobile app.
+A companion web dashboard for the [SnapKart](https://github.com/saieahmadsultan/snapkart) e-commerce app, built with Flutter Web and connected to the same Firebase backend as the mobile app.
 
 <!--
 📸 SCREENSHOT INSTRUCTIONS (delete this comment block once done):
@@ -47,7 +47,7 @@ A companion web dashboard for the [SnapKart](https://github.com/ahmadsultaniswl-
 
 ```bash
 # Clone the repo
-git clone https://github.com/ahmadsultaniswl-stack/snapkart-admin-panel.git
+git clone https://github.com/saieahmadsultan/snapkart-admin-panel.git
 cd snapkart-admin-panel
 
 # Install dependencies
@@ -63,13 +63,14 @@ flutter run -d chrome
 
 ## 🔗 Related Project
 
-- [SnapKart — E-commerce Mobile App](https://github.com/ahmadsultaniswl-stack/snapkart)
+- [SnapKart — E-commerce Mobile App](https://github.com/saieahmadsultan/snapkart)
 
 ---
 
 ## 👤 Author
 
-**Saie Ahmad**
+**Saie Ahmad Sultan**
 Flutter Mobile App Developer
 📧 ahmadsultaniswl@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/saie-ahmad)
+🐙 [GitHub](https://github.com/saieahmadsultan)
